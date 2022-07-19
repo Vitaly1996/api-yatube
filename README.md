@@ -30,7 +30,7 @@ python3 manage.py runserver
 
 # Пример запросов
 
-black_square_button: GET   'http://127.0.0.1:8000/api/v1/posts/'    
+black_square_button:GET   'http://127.0.0.1:8000/api/v1/posts/'    
 
 
 'Answer:'
