@@ -9,7 +9,7 @@ ____
 git clone git@github.com:Vitaly1996/api_final_yatube.git
 ____
 ### Cоздать и активировать виртуальное окружение:
-* Linux
+* ####Linux
 
 python3 -m venv venv
 
@@ -17,7 +17,8 @@ source venv/bin/activate
 
 python3 -m pip install --upgrade pip
 
-* Windows
+
+* ####Windows
 
 python3 -m venv venv
 
@@ -25,7 +26,8 @@ source venv/Scripts/activate
 
 python3 -m pip install --upgrade pip
 
-* MacOS
+
+* ####MacOS
 
 python3 -m venv venv
 
