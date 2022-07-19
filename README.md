@@ -50,7 +50,7 @@ python3 manage.py runserver
 * GET   http://127.0.0.1:8000/api/v1/posts/   
 
 <details>
-  <summary>'Answer'</summary>
+  <summary>Answer</summary>
   
   {
 "count": 123,    
@@ -63,7 +63,7 @@ python3 manage.py runserver
 * POST   http://127.0.0.1:8000/api/v1/follow/ 
 
 <details>
-  <summary>'Answer'</summary>
+  <summary>Answer</summary>
   
   {
 "following": "string"
@@ -73,10 +73,10 @@ python3 manage.py runserver
 * POST  http://127.0.0.1:8000/api/v1/jwt/create/
 
 <details>
-  <summary>'Answer'</summary>
+  <summary>Answer</summary>
   
   {
-"username": "string",
+"username": "string",    
 "password": "string"
 }
 </details>
