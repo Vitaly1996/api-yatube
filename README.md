@@ -1,54 +1,43 @@
-# Описание
+### Yatube API
+### Описание
+В данном проекте разработано API сервиса Yatube
 
+### Технологии
+- Python 3.7
+- Django 2.2
+- Django Rest Framework 3.12.14
+- Simple-JWT 5.2.0
 
-В данном проекте разработано API сервиса Yatube, чтобы еще в большей степени порадовать дорогих пользователей Yatube!
-____
-# Как запустить проект:
-### Клонировать репозиторий и перейти в него в командной строке:
+### Установка
+- склонировать репозиторий
+```sh
+git clone github.com/Vitaly1996/yatube.git
+```
+- создать и активировать виртуальное окружение для проекта
 
-git clone git@github.com:Vitaly1996/api_final_yatube.git
-____
-### Cоздать и активировать виртуальное окружение:
-* Linux
-
-python3 -m venv venv
-
-source venv/bin/activate
-
+```sh
+python -m venv venv
+source venv/scripts/activate (Windows)    
+source venv/bin/activate (MacOS/Linux)
 python3 -m pip install --upgrade pip
+```
+- установить зависимости
 
+```sh
+python pip install -r requirements.txt
+```
+- сделать миграции
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
 
-* Windows
+- запустить сервер
+```sh
+python manage.py runserver
+```
 
-python3 -m venv venv
-
-source venv/Scripts/activate
-
-python3 -m pip install --upgrade pip
-
-
-* MacOS
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-python3 -m pip install --upgrade pip
-____
-### Установить зависимости из файла requirements.txt:
-
-pip install -r requirements.txt
-____
-### Выполнить миграции:
-
-python3 manage.py migrate
-____
-### Запустить проект:
-
-python3 manage.py runserver
-
-# Пример запросов
-
+### Пример запросов
 * GET   http://127.0.0.1:8000/api/v1/posts/   
 
 <details>
