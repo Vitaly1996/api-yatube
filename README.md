@@ -38,36 +38,26 @@ python manage.py runserver
 ```
 
 ### Пример запросов
-  * GET   http://127.0.0.1:8000/api/v1/posts/   
+  - GET   http://127.0.0.1:8000/api/v1/posts/   
 
-  <details>
-  <summary>Answer</summary>
-  
-    {
+  {
   "count": 123,    
   "next": "http://api.example.org/accounts/?offset=400&limit=100",    
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",    
   "results": [{}]    
   }
-  </details>
 
-  * POST   http://127.0.0.1:8000/api/v1/follow/ 
-
-  <details>
-  <summary>Answer</summary>
+  - POST   http://127.0.0.1:8000/api/v1/follow/ 
   
-    {
+  {
   "following": "string"
   }
-  </details>
 
-  * POST  http://127.0.0.1:8000/api/v1/jwt/create/
 
-  <details>
-    <summary>Answer</summary>
+  - POST  http://127.0.0.1:8000/api/v1/jwt/create/
   
-    {
+  {
   "username": "string",    
   "password": "string"
   }
-  </details>
+
