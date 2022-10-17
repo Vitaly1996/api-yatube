@@ -40,24 +40,24 @@ python manage.py runserver
 ### Пример запросов
   - GET   http://127.0.0.1:8000/api/v1/posts/   
 
-  {
-  "count": 123,    
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",    
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",    
-  "results": [{}]    
-  }
+    {
+    "count": 123,    
+    "next": "http://api.example.org/accounts/?offset=400&limit=100",    
+    "previous": "http://api.example.org/accounts/?offset=200&limit=100",    
+    "results": [{}]    
+    }
 
   - POST   http://127.0.0.1:8000/api/v1/follow/ 
   
-  {
-  "following": "string"
-  }
+    {
+    "following": "string"
+    }
 
 
   - POST  http://127.0.0.1:8000/api/v1/jwt/create/
   
-  {
-  "username": "string",    
-  "password": "string"
-  }
+    {
+    "username": "string",    
+    "password": "string"
+    }
 
